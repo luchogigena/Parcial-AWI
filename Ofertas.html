@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagen-producto-1.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 1</h5>
+                        <p class="card-text">Descripción corta del producto 1.</p>
+                        <p class="card-text"><strong>Precio: $99.99</strong></p>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary btn-number" type="button"
+                                onclick="decreaseQuantity(1)">-</button>
+                            <input type="text" id="quantity-1" class="form-control input-number text-center" value="1"
+                                min="1">
+                            <button class="btn btn-outline-secondary btn-number" type="button"
+                                onclick="increaseQuantity(1)">+</button>
+                        </div>
+                        <button class="btn btn-primary">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagen-producto-2.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 2</h5>
+                        <p class="card-text">Descripción corta del producto 2.</p>
+                        <p class="card-text"><strong>Precio: $149.99</strong></p>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary btn-number" type="button"
+                                onclick="decreaseQuantity(2)">-</button>
+                            <input type="text" id="quantity-2" class="form-control input-number text-center" value="1"
+                                min="1">
+                            <button class="btn btn-outline-secondary btn-number" type="button"
+                                onclick="increaseQuantity(2)">+</button>
+                        </div>
+                        <button class="btn btn-primary">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagen-producto-3.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 3</h5>
+                        <p class="card-text">Descripción corta del producto 3.</p>
+                        <p class="card-text"><strong>Precio: $199.99</strong></p>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-secondary btn-number" type="button"
+                                onclick="decreaseQuantity(3)">-</button>
+                            <input type="text" id="quantity-3" class="form-control input-number text-center" value="1"
+                                min="1">
+                            <button class="btn btn-outline-secondary btn-number" type="button"
+                                onclick="increaseQuantity(3)">+</button>
+                        </div>
+                        <button class="btn btn-primary">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <a href="/index.html">Volver atras</a>
+    
+            <!-- añadir mas Cards -->
+            <!-- <div class="col-md-4">
+                <div class="card">
+                    ...
+                </div>
+            </div> -->
+    
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="navbar-config.js"></script>
+    <script src="navbar.js"></script>
+</body>
+</html>

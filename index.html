@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Viaje</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Viajes Increíbles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#"
+            
+        
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="navLinks">
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center p-5">
+        <div class="container">
+            <h1 class="display-4">Explora el Mundo</h1>
+            <p class="lead">Descubre los mejores destinos y ofertas para tus próximas vacaciones.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="/img/francia.jpg" class="card-img-top" alt="París, Francia">
+                    <div class="card-body">
+                        <h5 class="card-title">París, Francia</h5>
+                        <p class="card-text">Visita la ciudad del amor y disfruta de sus increíbles monumentos y
+                            cultura.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="/img/inglaterra.jpg" class="card-img-top" alt="Tokio, Japón">
+                    <div class="card-body">
+                        <h5 class="card-title">Londres, inglaterra</h5>
+                        <p class="card-text">Descubre la tecnología avanzada y la rica historia .
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="/img/playadelcarmen.webp" class="card-img-top" alt="Nueva York, EE.UU.">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa del Carmen .</h5>
+                        <p class="card-text">Sueño Caribeño.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario de contacto -->
+    <div class="container my-5">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer-dark text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Viajes Increíbles</h5>
+                    <p>Tu compañero de viaje para descubrir los mejores destinos del mundo.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Enlaces útiles</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#!" class="text-light">Sobre nosotros</a></li>
+                        <li><a href="#!" class="text-light">Política de privacidad</a></li>
+                        <li><a href="#!" class="text-light">Términos y condiciones</a></li>
+                        <li><a href="#!" class="text-light">Ayuda</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contacto</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="mailto:contacto@viajesincreibles.com" class="text-light">Email:
+                                contacto@viajesincreibles.com</a></li>
+                        <li><a href="tel:+1234567890" class="text-light">Teléfono: +123 456 7890</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Viajes Increíbles
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="navbar-config.js"></script>
+    <script src="navbar.js"></script>
+    
+</body>
+
+</html>
